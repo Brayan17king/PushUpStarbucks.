@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Material Icons--->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+    <!---Favicon--->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!---Styles Css--->
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Starbucks</title>
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="img/logo.png" class="logo"></a>
+            <input type="checkbox" id="hamburguer">
+            <label for="hamburguer">
+                <i class='bx bx-menu'></i>
+            </label>
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="https://www.starbucks.com.co/menu">Menu</a></li>
+                <li><a href="https://www.starbucks.com.co/seccion/novedades">News</a></li>
+                <li><a href="https://www.starbucks.com.co/stores">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>It's not just Coffee <br>It's <span class="span">Starbucks</span></h2>
+                <p>At Starbucks, you will find a wide variety of coffee beverages, from classic black coffee to the most
+                    complex espresso drinks. You can also enjoy a wide selection of other food and beverages, such as
+                    tea, juices, soft drinks, sandwiches and salads.</p>
+                <a href="#" id="letra">Learn More</a>
+            </div>
+            <div class="imgbox">
+                <img src="img/img1.png" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><a href="#"><img src="img/thumb1.png"
+                        onclick="imgSlider('img/img1.png'); changecircleColor('#017143'); changeColor('#017143'); changeText('#017143')"></a></li>
+            <li><a href="#"><img src="img/thumb2.png"; changeText('')
+                        onclick="imgSlider('img/img2.png'); changecircleColor('#eb7495'); changeColor('#eb7495'); changeText('#eb7495')""></a></li>
+            <li><a href="#"><img src="img/thumb3.png"; changeText('')
+                        onclick="imgSlider('img/img3.png'); changecircleColor('#FF78C4'); changeColor('#FF78C4'); changeText('#FF78C4')""></a></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/StarbucksColombia/?locale=es_LA"><img src="img/facebook.png"></a></li>
+            <li><a href="https://www.instagram.com/starbuckscol/?hl=es"><img src="img/instagram.png"></a></li>
+            <li><a href="https://twitter.com/Starbucks"><img src="img/twitter.png"></a></li>
+        </ul>
+    </section>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
